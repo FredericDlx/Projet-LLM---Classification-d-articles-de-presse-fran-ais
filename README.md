@@ -1,5 +1,3 @@
-Voici une proposition de résumé structuré et optimisé pour votre fichier `.md`. Ce format met en valeur la méthodologie, les modèles choisis et la structure de vos données.
-
 ---
 
 # 📰 Classification d'articles de presse français
