@@ -4,9 +4,6 @@
 
 # 📰 Classification d'articles de presse français
 > **Master Executive IA & Data Science** > *Auteurs : Xuan PENG et Frédéric DELCROIX*
-
-https://github.com/FredericDlx/Projet-LLM---Classification-d-articles-de-presse-fran-ais
-
 ---
 
 ## 📌 Présentation du projet
