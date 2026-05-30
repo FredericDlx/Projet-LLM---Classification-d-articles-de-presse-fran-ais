@@ -2,26 +2,26 @@
 
 ---
 
-# 📰 Classification d'articles de presse français
+# Classification d'articles de presse français
 > **Master Executive IA & Data Science** > *Auteurs : Xuan PENG et Frédéric DELCROIX*
 > 
 ---
 
-## 📌 Présentation du projet
+## Présentation du projet
 Ce projet consiste en une étude comparative de modèles de langage (LLM) pré-entraînés pour la **classification automatique d'articles de presse en français**. Nous évaluons la capacité de deux architectures Transformers à catégoriser des textes parmi **13 rubriques thématiques**.
 
-### 🎯 Objectifs principaux
+### Objectifs principaux
 1.  **Benchmark de performance** : Comparer CamemBERT (spécialisé français) et XLM-RoBERTa (multilingue).
 2.  **Analyse linguistique** : Évaluer si la spécialisation dans une langue apporte un gain réel face à un modèle universel massif.
 3.  **Analyse d'erreurs** : Identifier les confusions entre catégories proches (ex: Monde vs Europe).
 
 ---
 
-## 🤖 Modèles étudiés
+## Modèles étudiés
 
 | Caractéristique | **CamemBERT** | **XLM-RoBERTa** |
 | :--- | :--- | :--- |
-| **Spécialisation** | 🇫🇷 Français | 🌍 Multilingue (100 langues) |
+| **Spécialisation** | Français | Multilingue (100 langues) |
 | **Architecture** | RoBERTa (Base) | RoBERTa (Base/Large) |
 | **Paramètres** | ~110M | ~270M |
 | **Vocabulaire** | 32K tokens | 250K tokens |
@@ -29,7 +29,7 @@ Ce projet consiste en une étude comparative de modèles de langage (LLM) pré-e
 
 ---
 
-## 📊 Dataset et Catégories
+## Dataset et Catégories
 
 Nous utilisons le jeu de données **`diverse_french_news`** (Hugging Face), filtré spécifiquement sur le domaine **"lemonde.fr"** pour garantir une cohérence éditoriale.
 
@@ -40,7 +40,7 @@ En l'absence de labels natifs, un système de classification par **mots-clés po
 
 ---
 
-## 🛠️ Méthodologie Technique
+## Méthodologie Technique
 
 ### Préparation des données
 * **Concaténation** : Fusion du titre et de la description pour chaque article.
@@ -55,7 +55,7 @@ En l'absence de labels natifs, un système de classification par **mots-clés po
 
 ---
 
-## 📂 Structure du Rapport
+## Structure du Rapport
 1.  **Description des modèles** : Détails techniques de CamemBERT et XLM-R.
 2.  **Exploration des données** : Analyse de la distribution initiale et filtrage.
 3.  **Système de Labellisation** : Logique de l'algorithme de scoring par mots-clés.
@@ -65,7 +65,7 @@ En l'absence de labels natifs, un système de classification par **mots-clés po
 
 ---
 
-### 💡 Aperçu des données après traitement
+### Aperçu des données après traitement
 ```python
 # Exemple de distribution après échantillonnage équilibré
 # La plupart des catégories sont fixées à 384 échantillons 
