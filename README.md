@@ -50,6 +50,7 @@ En l'absence de labels natifs, un système de classification par **mots-clés po
 ### Hyperparamètres de Fine-tuning
 * **Learning Rate** : $3 \times 10^{-5}$
 * **Batch Size** : 16
+## Projets
 * **Époques** : 3
 * **Environnement** : GPU Tesla P100 (16GB)
 
@@ -64,10 +65,3 @@ En l'absence de labels natifs, un système de classification par **mots-clés po
 6.  **Conclusion** : Synthèse des résultats et recommandations.
 
 ---
-
-### Aperçu des données après traitement
-```python
-# Exemple de distribution après échantillonnage équilibré
-# La plupart des catégories sont fixées à 384 échantillons 
-# pour garantir une représentativité égale lors de l'apprentissage.
-```
